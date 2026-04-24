@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-"""Generate a formatted HTML code quality report from cppcheck XML output."""
 
 import xml.etree.ElementTree as ET
 import os, datetime
