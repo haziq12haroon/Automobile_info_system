@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-"""Generate a Use Case Diagram SVG for the AutoShield Insurance System."""
 
 SVG = '''<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 860" width="1280" height="860"
