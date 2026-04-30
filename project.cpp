@@ -9,7 +9,11 @@
 #include <limits>
 #include <ctime>
 #include <sys/stat.h>
-
+#ifdef _WIN32
+#include <direct.h>   // for _mkdir
+#else
+#include <sys/stat.h> // for mkdir
+#endif
 // ════════════════════════════════════════════════════════════
 //  SECTION 1 – UTILITY HELPERS
 // ════════════════════════════════════════════════════════════
